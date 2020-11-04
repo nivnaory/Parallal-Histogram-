@@ -13,7 +13,7 @@ In this folder you have 6 files:
 
 Instructions to execute this program:
 
-1. Extract the folder 203531058_204574529.
+1. Extract the folder Parallal-Histogram.
 2. Open the terminal form this folder.
 3. Enter the command $ make build.
 4. Enter the command $ make run < <"file_name"> to execute the program such as make run < data16.txt.
