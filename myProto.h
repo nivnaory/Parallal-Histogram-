@@ -5,11 +5,11 @@
 #define MASTER 0
 #define SLAVE 1
 
-int* readDataFromStdin(int* size);
-void createHistogram(int rank, int* data, int size, int* totalHistogram);
-void calculateHistogramWithOpenMp(int rank, int* data, int size, int* totalHistogram);
-void calculateHistogramWithCuda(int rank,int* data,int size,int* totalEachProcHistogram);
-int HistogramWithCuda(int rank,int* data, int size, int* totalEachProcHistogram);
-void printHistogram(int* hist, int size);
-
+int* readDataFromStdin(int *size);
+int* initHistogram(int size);
+void createHistogram(int rank, int *data, int size, int *totalHistogram);
+void calculateHistogramWithOpenMp(int rank, int *data, int size,int *totalHistogram);
+void calculateHistogramWithCuda(int rank, int *data, int size,int *totalEachProcHistogram);
+int HistogramWithCuda(int rank, int *data, int size,int *totalEachProcHistogram);
+void printHistogram(int *hist, int size);
 

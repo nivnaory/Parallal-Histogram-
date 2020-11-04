@@ -1,0 +1,20 @@
+Ido Zada - 203531058
+Niv Naory - 204574529
+
+
+In this folder you have 6 files:
+1. main.c
+2. cFunctions.c
+3. cudaHistogram.cu
+4. myProto.h
+5. makefile - Please note that the version you are working on is compatible with version 11.1 of cuda otherwise you need to change to the version you have installed in makefile
+6. Example file that called "data16.txt" , "data2560.txt" and more.
+
+
+Instructions to execute this program:
+
+1. Extract the folder 203531058_204574529.
+2. Open the terminal form this folder.
+3. Enter the command $ make build.
+4. Enter the command $ make run < <"file_name"> to execute the program such as make run < data16.txt.
+5. You show the result of histogram.
